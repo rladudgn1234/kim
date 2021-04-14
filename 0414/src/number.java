@@ -9,7 +9,7 @@ public class number {
 		int[]arr=new int[10];
 		
 		for(int a=1; a<10; a++){
-		arr[a]=(int)(Math.random()*50+1);
+		arr[a]=(int)(Math.random()*50+1);	
 		System.out.print(arr[a]+" ");
 		}
 		System.out.println();
@@ -18,7 +18,7 @@ public class number {
 			if(arr[i] ==num) {
 				System.out.println("당첨! 일치하는 숫자가 있습니다.");
 			}
-			else {
+			else {		
 				System.out.println("꽝! 다음기회에~");
 				break;
 			}
